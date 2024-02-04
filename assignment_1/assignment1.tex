@@ -1,0 +1,178 @@
+%\iffalse
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal,12pt,twocolumn]{IEEEtran}
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+\usepackage{gvv}                                        
+\def\inputGnumericTable{}                                 
+\usepackage[latin1]{inputenc}                                
+\usepackage{color}                                            
+\usepackage{array}                                            
+\usepackage{longtable}                                       
+\usepackage{calc}                                             
+\usepackage{multirow}                                         
+\usepackage{hhline}                                           
+\usepackage{ifthen}                                           
+\usepackage{lscape}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{problem}{Problem}
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{example}{Example}[section]
+\newtheorem{definition}[problem]{Definition}
+\newcommand{\BEQA}{\begin{eqnarray}}
+ \newcommand{\EEQA}{\end{eqnarray}}
+\newcommand{\define}{\stackrel{\triangle}{=}}
+\theoremstyle{remark}
+\newtheorem{rem}{Remark}
+\begin{document}
+ \bibliographystyle{IEEEtran}
+ \vspace{3cm}
+ \title{\textbf{11.14-4}}
+ \author{EE23BTECH11048-Ponugumati Venkata Chanakya$^{*}$% <-this % stops a space
+ }
+ \maketitle
+ \newpage
+ \bigskip
+ \renewcommand{\thefigure}{\theenumi}
+ \renewcommand{\thetable}{\theenumi}
+ \textbf{QUESTION:}
+ 
+ Which of the following functions of time represent (a) simple harmonic, (b) periodic
+ but not simple harmonic, and (c) non-periodic motion? Give period for each case of
+ peiodic motion ($\omega$ is any positive constant):\\
+ (a)$\sin\brak{\omega t}-\cos\brak{\omega t}$\\
+ (b)$\sin^3\brak{\omega t}$\\
+ (c)$3\cos\brak{\frac{\pi}{4}- 2\omega t}$\\
+ (d)$\cos\brak{\omega t}+\cos\brak{3\omega t}+\cos\brak{5\omega t}$\\
+ (e)$exp(-\omega^2 t^2)$\\
+ (f)$1+\omega t+\omega^2 t^2$\\
+ Answer:\\
+   Definition of period:\\The period is denoted by the symbol "T," and it represents the time interval required for the motion to go through one complete cycle\\
+   \\
+   \begin{enumerate}
+ \item $\sin(\omega t)- \cos(\omega t)$\\
+  \end{enumerate}
+ \begin{align}
+  &= \sin(\omega t) - \sin\brak{\frac{\pi}{2} - \omega t}\\
+  &=2 \cos\brak{\frac{\pi}{4}} \sin\brak{\omega t - \frac{\pi}{4}}\\
+  &=\sqrt{2}\sin\brak{\omega t - \frac{\pi}{4}}
+ \end{align}
+ $\therefore$ Simple harmonic motion with period {T} =$\frac{2\pi}{\omega}$\\ Phase angle of $\brak{\frac{-\pi}{4}}$ or$\brak{\frac{7\pi}{4}}$\\
+\\
+\begin{enumerate}
+ \setcounter{enumi}{1} 
+    \item $\sin^3(wt)$\\
+\end{enumerate}
+ 
+ \begin{align}
+  &=\frac{1}{4}(3\sin(\omega t)-\sin(3 \omega t))
+ \end{align}
+ $\therefore$  Simple harmonic motion with period {T} = $\frac{2\pi}{\omega}$ \\
+  phase angle zero\\
+\\
+\begin{enumerate}
+ \setcounter{enumi}{2} 
+    \item $3\cos\brak{\frac{\pi}{4}-2\omega t}$\\
+\end{enumerate}
+ \begin{align}
+  =3\cos\brak{2\omega t-\frac{\pi}{4}}\\
+ \end{align}
+ Simple harmonic motion with period {T} = $\frac{\pi}{\omega}$  and a phase angle of  $\brak{\frac{-\pi}{4}}$ or$\brak{\frac{7\pi}{4}}$\\
+ \\
+ \begin{enumerate}
+ \setcounter{enumi}{3} 
+    \item  $\cos(\omega t)+\cos(3\omega t)+\cos(5\omega t)$\\
+\end{enumerate}
+ \begin{align}
+  &=\cos(\omega t)+\cos(5\omega t)+\cos(3\omega t)\\
+  &=2\cos\brak{\frac{\omega t+5\omega t}{2}}\cos\brak{\frac{5\omega t-\omega t}{2}} +\cos(3\omega t)\\
+  &=2\cos(3\omega t) \cos(\omega t)+\cos(3\omega t)\\
+  &=\cos(3\omega t) (1+2\cos(\omega t))
+ \end{align}
+ Period of $\cos(3\omega t)$ is $\frac{2\pi}{3\omega}$\\ 
+ Period of $1+2\cos(\omega t)$ is $\frac{2\pi}{\omega}$\\ 
+ Lcm is $\frac{2\pi}{\omega}$\\
+ $\therefore$  Simple harmonic motion with period $\frac{2\pi}{\omega}$\\
+ \\
+ \begin{enumerate}
+ \setcounter{enumi}{4} 
+    \item  $exp^{\brak{-\omega^2t^2}}$\\
+\end{enumerate}
+       \begin{center}
+     As $T\to\infty$\\
+    $exp\brak{^{-\omega^2t^2}} \to \infty$\\ 
+       \end{center}
+    $\therefore$  This never repeats and non periodic\\
+    \\
+    \begin{enumerate}
+ \setcounter{enumi}{5} 
+    \item $1+\omega t+\omega^2t^2$\\
+\end{enumerate}
+ \begin{center}
+  As $T\to\infty$\\
+  $1+\omega t+\omega^2t^2  \to \infty$\\
+  \end{center}
+  $\therefore$ This never repeats and non periodic\\
+ \newpage
+ 
+ \renewcommand{\thefigure}{\theenumi}
+ \renewcommand{\thetable}{\theenumi}
+ 
+ 
+ \begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.4\textwidth]{figs/a1_fig1.png}
+    \caption{$\sin(\omega t)- \cos(\omega t)$}
+\end{figure}
+ \begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.4\textwidth]{figs/a1_fig2.png}
+    \caption{$\sin^3(\omega t)$}
+\end{figure}
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.4\textwidth]{figs/a1_fig3.png}
+    \caption{$3\cos\brak{\frac{\pi}{4}- 2\omega t}$}
+\end{figure}
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.4\textwidth]{figs/a1_fig4.png}
+    \caption{$\cos(\omega t)+\cos(3\omega t)+\cos(5\omega t)$}
+\end{figure}
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.4\textwidth]{figs/a1_fig5.png}
+    \caption{$exp^{\brak{-\omega^2 t^2}}$}
+\end{figure}
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.4\textwidth]{figs/a1_fig6.png}
+    \caption{$1+\omega t+\omega^2 t^2$}
+\end{figure}
+\newpage
+\begin{flushleft}
+  \begin{table}[h]
+   \def\arraystretch{1.5}:
+   \caption{Summary}
+   \label{tab:table.11.14-4}
+   \input{tables/table.tex}
+  \end{table}
+ \end{flushleft}
+\end{document} 
