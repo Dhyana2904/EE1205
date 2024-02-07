@@ -1,23 +1,16 @@
 import matplotlib.pyplot as plt
 
-# Function to generate arithmetic progression
-def generate_ap(start, common_diff, n):
-    ap = [start + i * common_diff for i in range(n)]
-    return ap
+filename = 'ap_data.txt'
 
-# Set the starting point, common difference, and number of terms
-start_value = 100
-common_difference = 1
-num_terms = 10  # You can adjust the number of terms as per your requirement
+# Read data from the file
+with open(filename, 'r') as file:
+    ap_sequence = [int(line.strip()) for line in file]
 
-# Generate arithmetic progression
-ap_sequence = generate_ap(start_value, common_difference, num_terms)
-
-# Plot the AP
-plt.plot(ap_sequence, marker='o', linestyle='-')
+# Plot the AP using a stem plot
+plt.stem(range(1, len(ap_sequence) + 1), ap_sequence, basefmt='b-', linefmt='b-', markerfmt='bo')
 plt.title('Arithmetic Progression')
-plt.xlabel('Term Number (n)')
-plt.ylabel('x(n)')
+plt.xlabel('Term Number')
+plt.ylabel('Value')
 plt.grid(True)
 plt.savefig('fig1.png')
 
