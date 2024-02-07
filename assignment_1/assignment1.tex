@@ -53,22 +53,25 @@
  \renewcommand{\thefigure}{\theenumi}
  \renewcommand{\thetable}{\theenumi}
  \textbf{QUESTION:}
- 
+ \textbf{QUESTION:}
  Which of the following functions of time represent (a) simple harmonic, (b) periodic
  but not simple harmonic, and (c) non-periodic motion? Give period for each case of
  peiodic motion ($\omega$ is any positive constant):\\
- (a)$\sin\brak{\omega t}-\cos\brak{\omega t}$\\
- (b)$\sin^3\brak{\omega t}$\\
- (c)$3\cos\brak{\frac{\pi}{4}- 2\omega t}$\\
- (d)$\cos\brak{\omega t}+\cos\brak{3\omega t}+\cos\brak{5\omega t}$\\
- (e)$exp(-\omega^2 t^2)$\\
- (f)$1+\omega t+\omega^2 t^2$\\
+ \begin{enumerate}
+ \item $\sin\brak{\omega t}-\cos\brak{\omega t}$\\
+ \item $\sin^3\brak{\omega t}$\\
+ \item $3\cos\brak{\frac{\pi}{4}- 2\omega t}$\\
+ \item $\cos\brak{\omega t}+\cos\brak{3\omega t}+\cos\brak{5\omega t}$\\
+ \item $exp(-\omega^2 t^2)$\\
+ \item $1+\omega t+\omega^2 t^2$\\
+  \end{enumerate}
  Answer:\\
    Definition of period:\\The period is denoted by the symbol "T," and it represents the time interval required for the motion to go through one complete cycle\\
    \\
    \begin{enumerate}
  \item $\sin(\omega t)- \cos(\omega t)$\\
   \end{enumerate}
+  This function can be rewritten as\\ 
  \begin{align}
   &= \sin(\omega t) - \sin\brak{\frac{\pi}{2} - \omega t}\\
   &=2 \cos\brak{\frac{\pi}{4}} \sin\brak{\omega t - \frac{\pi}{4}}\\
@@ -77,29 +80,27 @@
  $\therefore$ Simple harmonic motion with period {T} =$\frac{2\pi}{\omega}$\\ Phase angle of $\brak{\frac{-\pi}{4}}$ or$\brak{\frac{7\pi}{4}}$\\
 \\
 \begin{enumerate}
- \setcounter{enumi}{1} 
-    \item $\sin^3(wt)$\\
+    \item[(2)] $\sin^3(wt)$\\
 \end{enumerate}
- 
+ This function can be rewritten as\\ 
  \begin{align}
   &=\frac{1}{4}(3\sin(\omega t)-\sin(3 \omega t))
  \end{align}
- $\therefore$  Simple harmonic motion with period {T} = $\frac{2\pi}{\omega}$ \\
-  phase angle zero\\
+ $\therefore$ periodc with period {T} = $\frac{2\pi}{\omega}$ \\
 \\
 \begin{enumerate}
- \setcounter{enumi}{2} 
-    \item $3\cos\brak{\frac{\pi}{4}-2\omega t}$\\
+    \item[(3)] $3\cos\brak{\frac{\pi}{4}-2\omega t}$\\
 \end{enumerate}
+This function can be rewritten as\\ 
  \begin{align}
   =3\cos\brak{2\omega t-\frac{\pi}{4}}\\
  \end{align}
  Simple harmonic motion with period {T} = $\frac{\pi}{\omega}$  and a phase angle of  $\brak{\frac{-\pi}{4}}$ or$\brak{\frac{7\pi}{4}}$\\
  \\
  \begin{enumerate}
- \setcounter{enumi}{3} 
-    \item  $\cos(\omega t)+\cos(3\omega t)+\cos(5\omega t)$\\
+ \item[(4)]  $\cos(\omega t)+\cos(3\omega t)+\cos(5\omega t)$\\
 \end{enumerate}
+This function can be rewritten as\\ 
  \begin{align}
   &=\cos(\omega t)+\cos(5\omega t)+\cos(3\omega t)\\
   &=2\cos\brak{\frac{\omega t+5\omega t}{2}}\cos\brak{\frac{5\omega t-\omega t}{2}} +\cos(3\omega t)\\
@@ -112,26 +113,26 @@
  $\therefore$  Simple harmonic motion with period $\frac{2\pi}{\omega}$\\
  \\
  \begin{enumerate}
- \setcounter{enumi}{4} 
-    \item  $exp^{\brak{-\omega^2t^2}}$\\
+ \item[(5)]  \text{exp}\brak{-\omega^2 t^2}\\
 \end{enumerate}
+This function can be rewritten as\\ 
        \begin{center}
      As $T\to\infty$\\
-    $exp\brak{^{-\omega^2t^2}} \to \infty$\\ 
+    $\text{exp}\brak{-\omega^2 t^2}\to \infty$\\ 
        \end{center}
     $\therefore$  This never repeats and non periodic\\
     \\
     \begin{enumerate}
- \setcounter{enumi}{5} 
-    \item $1+\omega t+\omega^2t^2$\\
+ \item[(6)] $1+\omega t+\omega^2t^2$\\
 \end{enumerate}
+This function can be rewritten as\\ 
  \begin{center}
   As $T\to\infty$\\
   $1+\omega t+\omega^2t^2  \to \infty$\\
   \end{center}
-  $\therefore$ This never repeats and non periodic\\
- \newpage
+  $\therefore$ This never repeats and non periodic\\ 
  
+
  \renewcommand{\thefigure}{\theenumi}
  \renewcommand{\thetable}{\theenumi}
  
@@ -146,6 +147,8 @@
     \includegraphics[width=0.4\textwidth]{figs/a1_fig2.png}
     \caption{$\sin^3(\omega t)$}
 \end{figure}
+ \newpage
+ 
 \begin{figure}[h!]
     \centering
     \includegraphics[width=0.4\textwidth]{figs/a1_fig3.png}

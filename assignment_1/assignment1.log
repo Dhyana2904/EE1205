@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.2.2)  4 FEB 2024 19:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.2.2)  7 FEB 2024 12:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1250,47 +1250,92 @@ LaTeX Font Info:    Trying to load font information for TS1+txr on input line 5
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
 )
-Underfull \hbox (badness 3635) in paragraph at lines 57--70
-[]\OT1/txr/m/n/12 Which of the fol-low-ing func-tions of time
+Underfull \hbox (badness 10000) in paragraph at lines 55--61
+[]\OT1/txr/bx/n/12 QUESTION: QUES-TION: \OT1/txr/m/n/12 Which of the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 57--70
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 57--70
+Underfull \hbox (badness 10000) in paragraph at lines 55--61
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 70--71
+Underfull \hbox (badness 10000) in paragraph at lines 61--62
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--80
+Underfull \hbox (badness 10000) in paragraph at lines 62--63
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--80
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--82
+Underfull \hbox (badness 10000) in paragraph at lines 64--65
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--91
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--91
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--72
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--72
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--73
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--75
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--83
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--83
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--84
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--92
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 88--92
 
  []
 
@@ -1300,12 +1345,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 92--93
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--100
+Underfull \hbox (badness 10000) in paragraph at lines 94--95
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--100
+Underfull \hbox (badness 10000) in paragraph at lines 97--101
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--101
 
  []
 
@@ -1315,12 +1365,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 101--102
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--115
+Underfull \hbox (badness 10000) in paragraph at lines 103--104
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--115
+Underfull \hbox (badness 10000) in paragraph at lines 109--116
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--116
 
  []
 
@@ -1330,22 +1385,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 116--117
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--125
+Underfull \hbox (badness 10000) in paragraph at lines 118--119
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--125
+Underfull \hbox (badness 10000) in paragraph at lines 123--126
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 126--127
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 132--133
+Underfull \hbox (badness 10000) in paragraph at lines 123--126
 
  []
 
@@ -1353,74 +1403,81 @@ Underfull \hbox (badness 10000) in paragraph at lines 132--133
 
 
 ]
-<figs/a1_fig1.png, id=36, 462.528pt x 346.896pt>
+Underfull \hbox (badness 10000) in paragraph at lines 126--127
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--129
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--134
+
+ []
+
+<figs/a1_fig1.png, id=37, 462.528pt x 346.896pt>
 File: figs/a1_fig1.png Graphic file (type png)
 <use figs/a1_fig1.png>
-Package pdftex.def Info: figs/a1_fig1.png  used on input line 141.
+Package pdftex.def Info: figs/a1_fig1.png  used on input line 142.
 (pdftex.def)             Requested size: 206.39685pt x 154.79962pt.
-<figs/a1_fig2.png, id=38, 462.528pt x 346.896pt>
+<figs/a1_fig2.png, id=39, 462.528pt x 346.896pt>
 File: figs/a1_fig2.png Graphic file (type png)
 <use figs/a1_fig2.png>
-Package pdftex.def Info: figs/a1_fig2.png  used on input line 146.
+Package pdftex.def Info: figs/a1_fig2.png  used on input line 147.
 (pdftex.def)             Requested size: 206.39685pt x 154.79962pt.
-<figs/a1_fig3.png, id=39, 462.528pt x 346.896pt>
+<figs/a1_fig3.png, id=40, 462.528pt x 346.896pt>
 File: figs/a1_fig3.png Graphic file (type png)
 <use figs/a1_fig3.png>
-Package pdftex.def Info: figs/a1_fig3.png  used on input line 151.
+Package pdftex.def Info: figs/a1_fig3.png  used on input line 154.
 (pdftex.def)             Requested size: 206.39685pt x 154.79962pt.
-<figs/a1_fig4.png, id=40, 462.528pt x 346.896pt>
+<figs/a1_fig4.png, id=41, 462.528pt x 346.896pt>
 File: figs/a1_fig4.png Graphic file (type png)
 <use figs/a1_fig4.png>
-Package pdftex.def Info: figs/a1_fig4.png  used on input line 156.
+Package pdftex.def Info: figs/a1_fig4.png  used on input line 159.
 (pdftex.def)             Requested size: 206.39685pt x 154.79962pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<figs/a1_fig5.png, id=41, 462.528pt x 346.896pt>
+<figs/a1_fig5.png, id=42, 462.528pt x 346.896pt>
 File: figs/a1_fig5.png Graphic file (type png)
 <use figs/a1_fig5.png>
-Package pdftex.def Info: figs/a1_fig5.png  used on input line 161.
+Package pdftex.def Info: figs/a1_fig5.png  used on input line 164.
 (pdftex.def)             Requested size: 206.39685pt x 154.79962pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<figs/a1_fig6.png, id=42, 462.528pt x 346.896pt>
+<figs/a1_fig6.png, id=43, 462.528pt x 346.896pt>
 File: figs/a1_fig6.png Graphic file (type png)
 <use figs/a1_fig6.png>
-Package pdftex.def Info: figs/a1_fig6.png  used on input line 166.
+Package pdftex.def Info: figs/a1_fig6.png  used on input line 169.
 (pdftex.def)             Requested size: 206.39685pt x 154.79962pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-(./tables/table.tex)
-Overfull \hbox (152.66681pt too wide) in paragraph at lines 1--176
+[2 <./figs/a1_fig1.png> <./figs/a1_fig2.png> <./figs/a1_fig3.png> <./figs/a1_fi
+g4.png> <./figs/a1_fig5.png>] (./tables/table.tex)
+Overfull \hbox (152.66681pt too wide) in paragraph at lines 1--179
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1--176
+Underfull \hbox (badness 10000) in paragraph at lines 1--179
 
  []
 
+[3
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+ <./figs/a1_fig6.png>] (./assignment1.aux)
 
-[2 <./figs/a1_fig1.png> <./figs/a1_fig2.png> <./figs/a1_fig3.png> <./figs/a1_fi
-g4.png> <./figs/a1_fig5.png> <./figs/a1_fig6.png>] [3
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-] (./assignment1.aux)
 Package rerunfilecheck Info: File `assignment1.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 29626 strings out of 478287
- 583602 string characters out of 5849290
- 855562 words of memory out of 5000000
+ 29627 strings out of 478287
+ 583608 string characters out of 5849290
+ 856562 words of memory out of 5000000
  47144 multiletter control sequences out of 15000+600000
  551506 words of font info for 206 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 101i,11n,96p,415b,328s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 101i,11n,96p,415b,400s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type
@@ -1430,10 +1487,10 @@ fb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsya.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/tex
 mf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/urw/times/utmri8a.pfb>
-Output written on assignment1.pdf (3 pages, 199978 bytes).
+Output written on assignment1.pdf (3 pages, 200390 bytes).
 PDF statistics:
- 111 PDF objects out of 1000 (max. 8388607)
- 75 compressed objects within 1 object stream
- 27 named destinations out of 1000 (max. 500000)
+ 112 PDF objects out of 1000 (max. 8388607)
+ 76 compressed objects within 1 object stream
+ 28 named destinations out of 1000 (max. 500000)
  43 words of extra memory for PDF output out of 10000 (max. 10000000)
 
