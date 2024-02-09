@@ -53,7 +53,6 @@
  \renewcommand{\thefigure}{\theenumi}
  \renewcommand{\thetable}{\theenumi}
  \textbf{QUESTION:}
- \textbf{QUESTION:}
  Which of the following functions of time represent (a) simple harmonic, (b) periodic
  but not simple harmonic, and (c) non-periodic motion? Give period for each case of
  peiodic motion ($\omega$ is any positive constant):\\
@@ -66,72 +65,66 @@
  \item $1+\omega t+\omega^2 t^2$\\
   \end{enumerate}
  Answer:\\
-   Periodic function:\\ 
-   If for a function $f(x)$ is periodic  if there exists a positive number  such that for all x in the domain of $f$ , the following equation holds:\\
+   Periodic function:
    \begin{align}
-   f(x+T)=f(x)
-   \end{align}
-   \\
-   Period: The smallest positive value of T which holds is above equation\\
-   \\
-   Simple Harmonic Motion:\\
-   Mathematically, simple harmonic motion (SHM) is described by an equation that represents the displacement of an object undergoing such motion as a function of time. The general form of this equation is often given by:\\
-   \begin{align}
-       x(t)=A\cos(\omega t +\phi)
-   \end{align}
+x(t+T) = x(t) \forall x \in \mathbb{R}
+\end{align}
+ where min T is time period\\
+ \\
+    SHM:\\
+    For a function to be in shm it must satisfy 
+   $d^2 x(t) / dt^2 = - \alpha x$\\
    $x(t)$ is displacement\\
-   $A$ is amplitude\\
-   $\omega $ is angular frequency $\omega=2\pi f$\\
+   $\alpha$ is constant\\
    $t$ is time\\
-   $\phi$ is phase angle
    \\
+    $\omega $ is angular frequency $\omega=2\pi f$\\
    \begin{enumerate}
- \item $\sin(2\pi f t)- \cos(2\pi f t)$\\
-  \end{enumerate}
-  This function can be rewritten as\\ 
+\item $\sin(2\pi f t)- \cos(2\pi f t)$\\
+The function can be rewritten as:
  \begin{align}
   &= \sin(2\pi f t) - \sin\brak{\frac{\pi}{2} - 2\pi f t}\\
   &=2 \cos\brak{\frac{\pi}{4}} \sin\brak{2\pi f t - \frac{\pi}{4}}\\
   &=\sqrt{2}\sin\brak{2\pi f t - \frac{\pi}{4}}
  \end{align}
- $\therefore$ Simple harmonic motion with period {T} =$\frac{1}{f}$\\ Phase angle of($\phi$) $\brak{\frac{-\pi}{4}}$ or$\brak{\frac{7\pi}{4}}$\\
-\\
-\begin{enumerate}
+ \(\therefore\) SHM, \(T = \frac{1}{f}\) and \(\phi = \brak{\frac{-\pi}{4}}\) or \(\brak{\frac{7\pi}{4}}\)\\
+ 
+
     \item[(2)] $\sin^3(wt)$\\
-\end{enumerate}
+
  This function can be rewritten as\\ 
  \begin{align}
   &=\frac{1}{4}(3\sin(2\pi f t)-\sin(6\pi  f t))
  \end{align}
  $\therefore$ Periodic with period {T} = $\frac{1}{f}$ \\
 \\
-\begin{enumerate}
+
     \item[(3)] $3\cos\brak{\frac{\pi}{4}-4\pi f t}$\\
-\end{enumerate}
+
 This function can be rewritten as\\ 
  \begin{align}
   =3\cos\brak{4\pi f t-\frac{\pi}{4}}\\
  \end{align}
- Simple harmonic motion with period {T} = $\frac{1}{2f}$  and a $\phi$ of  $\brak{\frac{-\pi}{4}}$ or$\brak{\frac{7\pi}{4}}$\\
+ SHM, {T} = $\frac{1}{2f}$  and  $\phi=$  $\brak{\frac{-\pi}{4}}$ or$\brak{\frac{7\pi}{4}}$\\
  \\
- \begin{enumerate}
+
  \item[(4)]  $\cos(2\pi f t)+\cos(6\pi  f t)+\cos(10\pi  f t)$\\
-\end{enumerate}
+
 This function can be rewritten as\\ 
  \begin{align}
   &=\cos(2\pi f t)+\cos(10\pi  f t)+\cos(6\pi  f t)\\
-  &=2\cos\brak{\frac{2\pi f t+10\pi f t}{2}}\cos\brak{\frac{10\pi  f t-2\pi f t}{2}} +\cos(6\pi  f t)\\
+  &=2\cos\brak{\frac{2\pi f t+10\pi f t}{2}}\cos\brak{\frac{10\pi  f t-2\pi f t}{2}} +\cos(6\pi f t)\\
   &=2\cos(6\pi  f t) \cos(2\pi f t)+\cos(6\pi  f t)\\
   &=\cos(6\pi  f t) (1+2\cos(2\pi f t))
  \end{align}
  Period of $\cos(6\pi  f t)$ is $\frac{1}{3f}$\\ 
  Period of $1+2\cos(2\pi f t)$ is $\frac{1}{f}$\\ 
  Lcm is $\frac{1}{f}$\\
- $\therefore$  Simple harmonic motion with period $\frac{1}{f}$\\
+ $\therefore$  SHM,$T=$ $\frac{1}{f}$\\
  \\
- \begin{enumerate}
+
  \item[(5)]  \text{exp}\brak{-(2\pi f)^2 t^2}\\
-\end{enumerate}
+
 This function can be rewritten as\\ 
        \begin{center}
      As $T\to\infty$\\
@@ -139,16 +132,16 @@ This function can be rewritten as\\
        \end{center}
     $\therefore$  This never repeats and non periodic\\
     \\
-    \begin{enumerate}
+    
  \item[(6)] $1+2\pi f t+(2\pi f)^2t^2$\\
-\end{enumerate}
+
 This function can be rewritten as\\ 
  \begin{center}
   As $T\to\infty$\\
   $1+2\pi f t+(2\pi f)^2t^2  \to \infty$\\
   \end{center}
   $\therefore$ This never repeats and non periodic\\ 
- 
+\end{enumerate}
 
  \renewcommand{\thefigure}{\theenumi}
  \renewcommand{\thetable}{\theenumi}
