@@ -1,7 +1,7 @@
 %\iffalse
 \let\negmedspace\undefined
 \let\negthickspace\undefined
-\documentclass[journal,12pt,twocolumn]{IEEEtran}
+\documentclass[journal,12pt,onecolumn]{IEEEtran}
 \usepackage{cite}
 \usepackage{amsmath,amssymb,amsfonts,amsthm}
 \usepackage{algorithmic}
@@ -48,7 +48,7 @@
  \author{EE23BTECH11048-Ponugumati Venkata Chanakya$^{*}$% <-this % stops a space
  }
  \maketitle
- \newpage
+
  \bigskip
  \renewcommand{\thefigure}{\theenumi}
  \renewcommand{\thetable}{\theenumi}
@@ -74,12 +74,12 @@ x(t+T) = x(t) \quad \forall x \in \mathbb{R}
     SHM:\\
     For a function to be in shm it must satisfy 
     \begin{align}
-   \frac{d^2 x(t)}{dt^2} = - \alpha x\\
+   \frac{d^2 x(t)}{dt^2} = - (2\pi f_0)^2 x(t)\\
       \end{align}
    \begin{enumerate}
    \begin{table}[!ht]
     \centering
-        \input{tables/table2}
+        \input{tables/table2.tex}
     \caption{input parameters}
     \label{tab:}
 \end{table}
@@ -88,27 +88,34 @@ The function can be rewritten as:
  \begin{align}
   &= \sin(2\pi f t) - \sin\brak{\frac{\pi}{2} - 2\pi f t}\\
   &=2 \cos\brak{\frac{\pi}{4}} \sin\brak{2\pi f t - \frac{\pi}{4}}\\
-  &=\sqrt{2}\sin\brak{2\pi f t - \frac{\pi}{4}}
+  &=\sqrt{2}\sin\brak{2\pi f t - \frac{\pi}{4}}\\
+  \frac{d^2(\sin(2\pi f t)- \cos(2\pi f t))}{dt^2}&=-(2\pi f)^2(\sin(2\pi f t)- \cos(2\pi f t))\\
+     \frac{d^2 x(t)}{dt^2} &= - (2\pi f)^2 x(t)
  \end{align}
  \(\therefore\) SHM, \(T = \frac{1}{f}\) and \(\phi = \brak{\frac{-\pi}{4}}\) or \(\brak{\frac{7\pi}{4}}\)\\
- 
+ Graph of function is shown in (\figref{fig:11.14.4.1})
 
-     \item[(2)] $\sin^3(2\pi f t)$\\
+    \item[(2)] $\sin^3(2\pi f t)$\\
 
  This function can be rewritten as\\ 
  \begin{align}
-  &=\frac{1}{4}(3\sin(2\pi f t)-\sin(6\pi  f t))
+  &=\frac{1}{4}(3\sin(2\pi f t)-\sin(6\pi  f t))\\
+  \frac{d^2(\sin^3(2\pi f t))}{dt^2}&=9(2\pi f)^2(\sin(2\pi ft)-\sin^3(2\pi ft))\\
+   \frac{d^2 x(t)}{dt^2} &\neq - (2\pi f)^2 x(t)
  \end{align}
  $\therefore$ Periodic with period {T} = $\frac{1}{f}$ \\
+Graph of function is shown in (\figref{fig:11.14.4.2})
 \\
-
     \item[(3)] $3\cos\brak{\frac{\pi}{4}-4\pi f t}$\\
 
 This function can be rewritten as\\ 
  \begin{align}
-  =3\cos\brak{4\pi f t-\frac{\pi}{4}}\\
+  &=3\cos\brak{4\pi f t-\frac{\pi}{4}}\\
+  \frac{d^2\brak{3\cos\brak{\frac{\pi}{4}-4\pi f t}}}{dt^2}&=-3(4\pi f)^2\brak{\cos\frac{\pi}{4}-4\pi f t}\\
+  \frac{d^2 x(t)}{dt^2} &= - (4\pi f)^2 x(t)
  \end{align}
  $\therefore$  SHM, $T = \frac{1}{2f}$  and  $\phi=\brak{\frac{-\pi}{4}}$ or $\brak{\frac{7\pi}{4}}$ \\
+ Graph of function is shown in (\figref{fig:11.14.4.3})
  \\
 
  \item[(4)]  $\cos(2\pi f t)+\cos(6\pi  f t)+\cos(10\pi  f t)$\\
@@ -118,30 +125,47 @@ This function can be rewritten as\\
   &=\cos(2\pi f t)+\cos(10\pi  f t)+\cos(6\pi  f t)\\
   &=2\cos\brak{\frac{2\pi f t+10\pi f t}{2}}\cos\brak{\frac{10\pi  f t-2\pi f t}{2}} +\cos(6\pi f t)\\
   &=2\cos(6\pi  f t) \cos(2\pi f t)+\cos(6\pi  f t)\\
-  &=\cos(6\pi  f t) (1+2\cos(2\pi f t))
+  &=\cos(6\pi  f t) (1+2\cos(2\pi f t))\\
+     \frac{d^2{\cos(2\pi f t)+\cos(6\pi  f t)+\cos(10\pi  f t)}}{dt^2}&=(2\pi f)^2\cos(2\pi f t)+(6\pi f)^2\cos(6\pi  f t)+(10\pi f)^2\cos(10\pi  f t)\\
+      \frac{d^2 x(t)}{dt^2} &\neq - (2\pi f)^2 x(t)
  \end{align}
  Period of $\cos(6\pi  f t)$ is $\frac{1}{3f}$\\ 
  Period of $1+2\cos(2\pi f t)$ is $\frac{1}{f}$\\ 
  Lcm is $\frac{1}{f}$\\
  $\therefore$  SHM,$T=$ $\frac{1}{f}$\\
+ Graph of function is shown in (\figref{fig:11.14.4.4})
  \\
 
- \item[(5)]  \text{exp}\brak{-(2\pi f)^2 t^2}\\
+ \item[(5)]  $\text{exp}\brak{-(2\pi f)^2 t^2}$\\
 
-       \begin{center}
-     As $T\to\infty$\\
-    $\text{exp}\brak{-(2\pi f)^2 t^2}\to \infty$\\ 
-       \end{center}
+       \begin{align}
+     \text{As } T\to\infty\\
+    \text{exp}\brak{-(2\pi f)^2 t^2}\to \infty\\ 
+    \frac{d^2(\text{exp}\brak{-(2\pi f)^2 t^2}))}{dt^2}&=2(2\pi ft)^2\text{exp}\brak{-(2\pi f)^2 t^2}+2(2\pi ft)^4\text{exp}\brak{-(2\pi f)^2 t^2}\\
+    \frac{d^2 x(t)}{dt^2} &\neq - (2\pi f)^2 x(t)
+       \end{align}
     $\therefore$  This never repeats and non periodic\\
+    Graph of function is shown in (\figref{fig:11.14.4.5})
     \\
     
  \item[(6)] $1+2\pi f t+(2\pi f)^2t^2$\\
 
- \begin{center}
-  As $T\to\infty$\\
-  $1+2\pi f t+(2\pi f)^2t^2  \to \infty$\\
-  \end{center}
+ \begin{align}
+  \text{As } T\to\infty\\
+  1+2\pi f t+(2\pi f)^2t^2  \to \infty\\
+   \frac{d^2(1+2\pi f t+(2\pi f)^2t^2)}{dt^2}&=2(2\pi f)^2\\
+   \frac{d^2 x(t)}{dt^2} &\neq - (2\pi f)^2 x(t)
+ \end{align}
   $\therefore$ This never repeats and non periodic\\ 
+ Graph of function is shown in (\figref{fig:11.14.4.6})
+ \begin{flushleft}
+  \begin{table}[h]
+   \def\arraystretch{1.5}:
+   \caption{Summary}
+   \label{tab:table.11.14-4}
+   \input{tables/table.tex}
+  \end{table}
+ \end{flushleft}
  
 \end{enumerate}
  \renewcommand{\thefigure}{\theenumi}
@@ -150,42 +174,39 @@ This function can be rewritten as\\
  
  \begin{figure}[h!]
     \centering
-    \includegraphics[width=0.4\textwidth]{figs/a1_fig1.png}
-    \caption{$\sin(2\pi f t)- \cos(2\pi ft)$}
+    \includegraphics[width=\columnwidth]{figs/a1_fig1.png}
+    \caption{$\sin(2\pi f t)- \cos(2\pi f t)$}
+    \label{fig:11.14.4.1}
 \end{figure}
  \begin{figure}[h!]
     \centering
-    \includegraphics[width=0.4\textwidth]{figs/a1_fig2.png}
+    \includegraphics[width=\columnwidth]{figs/a1_fig2.png}
     \caption{$\sin^3(2\pi f t)$}
+    \label{fig:11.14.4.2}
 \end{figure}
 \newpage
 \begin{figure}[h!]
     \centering
-    \includegraphics[width=0.4\textwidth]{figs/a1_fig3.png}
+    \includegraphics[width=\columnwidth]{figs/a1_fig3.png}
     \caption{$3\cos\brak{\frac{\pi}{4}- 4\pi f t}$}
+    \label{fig:11.14.4.3}
 \end{figure}
 \begin{figure}[h!]
     \centering
-    \includegraphics[width=0.4\textwidth]{figs/a1_fig4.png}
+    \includegraphics[width=\columnwidth]{figs/a1_fig4.png}
     \caption{$\cos(2\pi f t)+\cos(6\pi  f t)+\cos(10\pi  f t)$}
+    \label{fig:11.14.4.4}
 \end{figure}
 \begin{figure}[h!]
     \centering
-    \includegraphics[width=0.4\textwidth]{figs/a1_fig5.png}
+    \includegraphics[width=\columnwidth]{figs/a1_fig5.png}
     \caption{$exp^{\brak{-(2\pi ft)^2}}$}
+    \label{fig:11.14.4.5}
 \end{figure}
 \begin{figure}[h!]
     \centering
-    \includegraphics[width=0.4\textwidth]{figs/a1_fig6.png}
+    \includegraphics[width=\columnwidth]{figs/a1_fig6.png}
     \caption{$1+2\pi f t+(2\pi f t)^2$}
+    \label{fig:11.14.4.6}
 \end{figure}
-\newpage
-\begin{flushleft}
-  \begin{table}[h]
-   \def\arraystretch{1.5}:
-   \caption{Summary}
-   \label{tab:table.11.14-4}
-   \input{tables/table.tex}
-  \end{table}
- \end{flushleft}
-\end{document} 
+\end{document}
