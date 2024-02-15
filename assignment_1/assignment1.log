@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.2.2)  14 FEB 2024 17:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.2.2)  15 FEB 2024 20:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1251,7 +1251,12 @@ LaTeX Font Info:    Trying to load font information for TS1+txr on input line 5
 (/usr/share/texlive/texmf-dist/tex/latex/txfonts/ts1txr.fd
 File: ts1txr.fd 2000/12/15 v3.1
 )
-Underfull \hbox (badness 10000) in paragraph at lines 55--60
+Underfull \hbox (badness 10000) in paragraph at lines 55--59
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--60
 
  []
 
@@ -1281,23 +1286,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 64--65
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--66
+Underfull \hbox (badness 10000) in paragraph at lines 66--68
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 71--76
+Underfull \hbox (badness 10000) in paragraph at lines 71--74
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 71--74
 
  []
 
 (./tables/table2.tex) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 
-LaTeX Warning: Reference `fig:11.14.4.1' on page 2 undefined on input line 96.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 98--99
-
- []
+LaTeX Warning: Reference `fig:11.14.4.1' on page 2 undefined on input line 98.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 100--101
@@ -1305,126 +1310,131 @@ Underfull \hbox (badness 10000) in paragraph at lines 100--101
  []
 
 
-LaTeX Warning: Reference `fig:11.14.4.2' on page 2 undefined on input line 107.
-
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 105--109
+Underfull \hbox (badness 10000) in paragraph at lines 102--103
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--110
+LaTeX Warning: Reference `fig:11.14.4.2' on page 2 undefined on input line 110.
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 107--112
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 111--112
+Underfull \hbox (badness 10000) in paragraph at lines 112--113
 
  []
 
 
-LaTeX Warning: Reference `fig:11.14.4.3' on page 2 undefined on input line 118.
-
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 116--120
+Underfull \hbox (badness 10000) in paragraph at lines 114--115
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--122
+LaTeX Warning: Reference `fig:11.14.4.3' on page 2 undefined on input line 122.
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 119--124
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 123--124
+Underfull \hbox (badness 10000) in paragraph at lines 125--126
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--128
 
  []
 
 [2]
 
-LaTeX Warning: Reference `fig:11.14.4.4' on page 3 undefined on input line 136.
+LaTeX Warning: Reference `fig:11.14.4.4' on page 3 undefined on input line 141.
 
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 131--138
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 139--140
+Underfull \hbox (badness 10000) in paragraph at lines 135--143
 
  []
 
 
-LaTeX Warning: Reference `fig:11.14.4.5' on page 3 undefined on input line 148.
-
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 146--150
+Underfull \hbox (badness 10000) in paragraph at lines 144--145
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 151--152
+LaTeX Warning: Reference `fig:11.14.4.5' on page 3 undefined on input line 153.
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 151--155
 
  []
 
 
-LaTeX Warning: Reference `fig:11.14.4.6' on page 3 undefined on input line 160.
+Underfull \hbox (badness 10000) in paragraph at lines 156--157
+
+ []
+
+
+LaTeX Warning: Reference `fig:11.14.4.6' on page 3 undefined on input line 165.
 
 
 (./tables/table.tex)
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figs/a1_fig1.png, id=49, 462.528pt x 346.896pt>
+<figs/a1_fig1.png, id=51, 462.528pt x 346.896pt>
 File: figs/a1_fig1.png Graphic file (type png)
 <use figs/a1_fig1.png>
-Package pdftex.def Info: figs/a1_fig1.png  used on input line 177.
+Package pdftex.def Info: figs/a1_fig1.png  used on input line 182.
 (pdftex.def)             Requested size: 516.0pt x 387.0176pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figs/a1_fig2.png, id=51, 462.528pt x 346.896pt>
+<figs/a1_fig2.png, id=53, 462.528pt x 346.896pt>
 File: figs/a1_fig2.png Graphic file (type png)
 <use figs/a1_fig2.png>
-Package pdftex.def Info: figs/a1_fig2.png  used on input line 183.
+Package pdftex.def Info: figs/a1_fig2.png  used on input line 188.
 (pdftex.def)             Requested size: 516.0pt x 387.0176pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [3]
-<figs/a1_fig3.png, id=70, 462.528pt x 346.896pt>
+<figs/a1_fig3.png, id=72, 462.528pt x 346.896pt>
 File: figs/a1_fig3.png Graphic file (type png)
 <use figs/a1_fig3.png>
-Package pdftex.def Info: figs/a1_fig3.png  used on input line 190.
+Package pdftex.def Info: figs/a1_fig3.png  used on input line 195.
 (pdftex.def)             Requested size: 516.0pt x 387.0176pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figs/a1_fig4.png, id=71, 462.528pt x 346.896pt>
+<figs/a1_fig4.png, id=73, 462.528pt x 346.896pt>
 File: figs/a1_fig4.png Graphic file (type png)
 <use figs/a1_fig4.png>
-Package pdftex.def Info: figs/a1_fig4.png  used on input line 196.
+Package pdftex.def Info: figs/a1_fig4.png  used on input line 201.
 (pdftex.def)             Requested size: 516.0pt x 387.0176pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figs/a1_fig5.png, id=72, 462.528pt x 346.896pt>
+<figs/a1_fig5.png, id=74, 462.528pt x 346.896pt>
 File: figs/a1_fig5.png Graphic file (type png)
 <use figs/a1_fig5.png>
-Package pdftex.def Info: figs/a1_fig5.png  used on input line 202.
+Package pdftex.def Info: figs/a1_fig5.png  used on input line 207.
 (pdftex.def)             Requested size: 516.0pt x 387.0176pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figs/a1_fig6.png, id=73, 462.528pt x 346.896pt>
+<figs/a1_fig6.png, id=75, 462.528pt x 346.896pt>
 File: figs/a1_fig6.png Graphic file (type png)
 <use figs/a1_fig6.png>
-Package pdftex.def Info: figs/a1_fig6.png  used on input line 208.
+Package pdftex.def Info: figs/a1_fig6.png  used on input line 213.
 (pdftex.def)             Requested size: 516.0pt x 387.0176pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1442,13 +1452,13 @@ Package rerunfilecheck Info: File `assignment1.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 29664 strings out of 478287
- 583948 string characters out of 5849290
- 845596 words of memory out of 5000000
+ 29666 strings out of 478287
+ 583962 string characters out of 5849290
+ 846559 words of memory out of 5000000
  47153 multiletter control sequences out of 15000+600000
  551506 words of font info for 206 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 101i,12n,96p,415b,461s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 101i,12n,96p,415b,463s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type
@@ -1460,10 +1470,10 @@ are/texlive/texmf-dist/fonts/type1/public/txfonts/txsyb.pfb></usr/share/texlive
 /fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
 w/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a
 .pfb>
-Output written on assignment1.pdf (9 pages, 215593 bytes).
+Output written on assignment1.pdf (9 pages, 216209 bytes).
 PDF statistics:
- 174 PDF objects out of 1000 (max. 8388607)
- 127 compressed objects within 2 object streams
- 53 named destinations out of 1000 (max. 500000)
+ 177 PDF objects out of 1000 (max. 8388607)
+ 130 compressed objects within 2 object streams
+ 55 named destinations out of 1000 (max. 500000)
  43 words of extra memory for PDF output out of 10000 (max. 10000000)
 
