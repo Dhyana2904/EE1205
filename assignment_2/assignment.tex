@@ -1,7 +1,7 @@
 %\iffalse
 \let\negmedspace\undefined
 \let\negthickspace\undefined
-\documentclass[journal,12pt,twocolumn]{IEEEtran}
+\documentclass[journal,12pt,onecolumn]{IEEEtran}
 \usepackage{cite}
 \usepackage{amsmath,amssymb,amsfonts,amsthm}
 \usepackage{algorithmic}
@@ -44,11 +44,11 @@
 \begin{document}
  \bibliographystyle{IEEEtran}
  \vspace{3cm}
- \title{\textbf{11.14-4}}
+ \title{\textbf{10.5-2}}
  \author{EE23BTECH11048-Ponugumati Venkata Chanakya$^{*}$% <-this % stops a space
  }
  \maketitle
- \newpage
+
  \bigskip
  \renewcommand{\thefigure}{\theenumi}
  \renewcommand{\thetable}{\theenumi}
@@ -57,9 +57,11 @@
  \solution
 
  \begin{align}
-     x(n) &= \{x(0)+nd\}u(n) \\
+     x(n) &= \{x(0)+nd\}u(n) \label{eq 10.5.2_1}\\
      x(17)-x(10) &= 7\\
     \implies {x(0)+17d}-{x(0)+10d} &= 7\\
+    \implies 17d-10d &= 7\\
+    \implies 7d &= 7\\
     \implies d &= 1
  \end{align}
 
@@ -70,14 +72,30 @@
     \caption{input parameters}
     \label{tab:10_5_3_12}
 \end{table}
+Taking Z-Transform:
+\begin{enumerate}
+    \item $\mathcal{Z}\{u(n)\}$
+\begin{align}
+    u(n) \system{Z} \frac{1}{1-z^{-1}} \{\abs{z} > 1\} \label{eq 10.5.2_7}
+\end{align}
+    \item $\mathcal{Z}\{nu(n)\}$ 
+\begin{align}
+    nu(n) \system{Z} \frac{z^{-1}}{(1-z^{-1})^2}\, \{\abs{z} > 1\} \label{eq 10.5.2_8} 
+\end{align}
+Taking Z-Transform of \eqref{eq 10.5.2_1} using \eqref{eq 10.5.2_7}and \eqref{eq 10.5.2_8}
+\begin{align}
+    X(n)=100\frac{1}{1-z^{-1}} +\frac{z^{-1}}{(1-z^{-1})^2}\
+\end{align}
+\end{enumerate}
 Let \\
 \begin{align}
-x(n)&= (100+n)u(n)
+x(n)&= \lbrace 101,102,103,...\rbrace 
 \end{align}
-\begin{figure}[h!]
+\begin{figure}
     \centering
-    \includegraphics[width=0.4\textwidth]{figs/fig1.png}
-    \caption{x(n)}
+    \includegraphics{figs/fig1.png}
+    \caption{ }
+    \label{fig:x(n) }
 \end{figure}
  
  \end{document}
