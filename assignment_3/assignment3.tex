@@ -61,31 +61,31 @@ Consider the equation $\frac{dy}{dx}+ay=\sin{\omega x}$,where $a$ and $\omega$ a
   \item[(C)]  $y \to Aexp(|a|x)$ if $a < 0$; A is constant\\
   \item[(D)]  $y \to B \sin(\omega x+C)$ if $a>0$; B and C are constants\\
 \end{enumerate}
- \hfill(GATE AE 2023)
+\hfill(GATE AE 2023)\\
 \solution: \\
-  $y(0)=1$
 \begin{align}
+  y(0)=1\\
  \frac{dy}{dx}+ay &= \sin{\omega x}
 \end{align}
- Taking laplace transform on both sides 
+ Taking Fourier transform on both sides 
   \begin{table}[!ht]
     \centering
         \input{Table/table.tex}
-    \caption{Laplace transform}
+    \caption{Fourier transform}
     \label{tab:Gate AE 42 }
 \end{table}
 \begin{align}
-    xY-y(0)+aY &= \frac{\omega}{\omega^2+s^2}\\
-    xY-1+aY &= \frac{\omega}{\omega^2+s^2}\\
-    \implies Y(s)&=\frac{1}{s+a} \brak{\frac{\omega}{\omega^2+s^2}+\frac{1}{s+a}}\\
-     Y(s)&=\frac{A}{s+a} +\frac{Bs+C}{\omega^2+s^2}
+   \jmath \omega Y+aY &= \frac{\omega}{2\jmath}(\delta(\omega-\omega_0)-\delta(\omega+\omega_0)\\
+    \implies Y(s)&=\frac{\omega}{2\jmath(\omega+a)}(\delta(\omega-\omega_0)-\delta(\omega+\omega_0)
  \end{align}
  Taking inverse laplace transform on both sides 
  \begin{align}
-      y(x) = \mathcal{L}^{-1}\{Y(s)\} &= A e^{-ax} + (B\cos(\omega x) + C\sin(\omega x))\\
-       y(x) = \mathcal{L}^{-1}\{Y(s)\} &= A e^{-ax} + B\sin(\omega x+C)
+  y(x) &= \frac{1}{2\pi} \int_{-\infty}^{\infty} Y(s) \, e^{isx} \, ds\\
+   y(x) &= \frac{1}{2\pi} \int_{-\infty}^{\infty} \frac{\omega}{2i(\omega + a)} \left( \delta(\omega - \omega_0) - \delta(\omega + \omega_0) \right) e^{isx} \, ds \\
+      y(x) &= \mathcal{F}^{-1}\{Y(s)\} = A e^{-ax} + (B\cos(\omega x) + C\sin(\omega x))\\
+       y(x) &= \mathcal{F}^{-1}\{Y(s)\} = A e^{-ax} + B\sin(\omega x+C)
  \end{align}
- now as $x\to \infty$
+ Now as $x\to \infty$
  \begin{enumerate}
      \item $y \to 0$ if $a \neq 0$ is not true as $y$ depend on $a,\omega$
      \item $y \to 1 $ if $ a=0$ is not true as y depend on $\omega$
