@@ -15,5 +15,5 @@ plt.xlabel('Time (t)')
 plt.ylabel('x(t) (cm)')
 plt.legend()
 plt.grid(True)
-plt.savefig('xe_71_f1')
+plt.savefig('xe_71_f2')
 

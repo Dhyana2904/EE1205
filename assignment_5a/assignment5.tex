@@ -79,13 +79,13 @@
      \end{align}
      Taking Laplace transform:
      \begin{align}
-       m\brak{s^2X(s)-sf(0)-f^1(0)}&=-kX(s)\\
-       X(s)&=\frac{m(sf(0)+f^1(0))}{k+ms^2}
+X(s) &= \frac{ms x(0) + x'(0)}{ms^2 + k} \\
+       X(s) &= \frac{1}{\sqrt{\frac{k}{m}}} \left( A \frac{s - i \sqrt{\frac{k}{m}}}{s^2 + \frac{k}{m}} + B \frac{s + i \sqrt{\frac{k}{m}}}{s^2 + \frac{k}{m}} \right) 
      \end{align}
      Taking Inverse Laplace Transform:\\
      Initial Conditions be at extreme point of SHM
      \begin{align}
-      x(t)&=a\sin\brak{\sqrt{\frac{k}{m}} t+\phi}\\
+      x(t) &=A \left( B \sin(\sqrt{\frac{k}{m}}t) + C\cos(\sqrt{\frac{k}{m}}t) \right)\\
       x(t)&=0.3924\brak{\sin(\sqrt{\frac{100}{5}}t+\frac{\pi}{2}}\text{ m}\\
       x(t)&=39.24 \sin(5t+\frac{\pi}{2}) \text{ cm}
      \end{align}

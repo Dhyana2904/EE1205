@@ -12,7 +12,7 @@ int main() {
     }
 
     // Generate and save data
-    for (double t = 0.0; t <= 2 * PI; t += 0.1) {
+    for (double t = 0.0; t <= 2 * PI; t += 0.01) {
         double x_t = 39.24 * sin(5 * t + PI / 2);
         fprintf(file, "%f\t%f\n", t, x_t);
     }
