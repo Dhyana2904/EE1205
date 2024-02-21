@@ -65,7 +65,7 @@ Consider the equation $\frac{dy}{dx}+ay=\sin{\omega x}$,where $a$ and $\omega$ a
 \solution: \\
 \begin{align}
   y(0)=1\\
- \frac{dy}{dx}+ay &= \sin{\omega x}
+ \frac{dy}{dx}+ay &= \sin{\omega_0 x}
 \end{align}
  Taking Fourier transform on both sides 
   \begin{table}[!ht]
@@ -76,14 +76,14 @@ Consider the equation $\frac{dy}{dx}+ay=\sin{\omega x}$,where $a$ and $\omega$ a
 \end{table}
 \begin{align}
    \jmath \omega Y+aY &= \frac{\omega}{2\jmath}(\delta(\omega-\omega_0)-\delta(\omega+\omega_0)\\
-    \implies Y(s)&=\frac{\omega}{2\jmath(\omega+a)}(\delta(\omega-\omega_0)-\delta(\omega+\omega_0)
+    \implies Y&=\frac{\omega}{2\jmath(\jmath\omega+a)}(\delta(\omega-\omega_0)-\delta(\omega+\omega_0)
  \end{align}
- Taking inverse laplace transform on both sides 
+ Taking inverse fourier transform on both sides 
  \begin{align}
-  y(x) &= \frac{1}{2\pi} \int_{-\infty}^{\infty} Y(s) \, e^{isx} \, ds\\
-   y(x) &= \frac{1}{2\pi} \int_{-\infty}^{\infty} \frac{\omega}{2i(\omega + a)} \left( \delta(\omega - \omega_0) - \delta(\omega + \omega_0) \right) e^{isx} \, ds \\
-      y(x) &= \mathcal{F}^{-1}\{Y(s)\} = A e^{-ax} + (B\cos(\omega x) + C\sin(\omega x))\\
-       y(x) &= \mathcal{F}^{-1}\{Y(s)\} = A e^{-ax} + B\sin(\omega x+C)
+  y(x) &= \frac{1}{2\pi} \int_{-\infty}^{\infty} Y \, e^{\jmath sx} \, ds\\
+   y(x) &= \frac{1}{2\pi} \int_{-\infty}^{\infty} \frac{\omega}{2\jmath(\jmath \omega + a)} \left( \delta(\omega - \omega_0) - \delta(\omega + \omega_0) \right) e^{\jmath sx} \, ds \\
+      y(x) &= \mathcal{F}^{-1}\{Y\} = A e^{-ax} + (B\cos(\omega x) + C\sin(\omega x))\\
+       y(x) &= \mathcal{F}^{-1}\{Y\} = A e^{-ax} + B\sin(\omega x+C)
  \end{align}
  Now as $x\to \infty$
  \begin{enumerate}
