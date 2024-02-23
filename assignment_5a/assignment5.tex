@@ -66,36 +66,37 @@
     At mean position in equilibrium\\
     \begin{align}
         Mg&=kx\\
-        4\cdot9.81&=100x\\
-        39.24&=100x\\
-        x&=0.3924m\\
         x&=39.24cm
     \end{align}
      \item Time period of oscilattion\\
+     
      \begin{align}
            F&=-kx\\
-           ma&=-kx\\
            m\brak{\frac{d^2x}{dt^2}}=-kx
      \end{align}
      Taking Laplace transform:
      \begin{align}
-X(s) &= \frac{ms x(0) + x'(0)}{ms^2 + k} \\
+      X(s) &= \frac{ms x(0) + x'(0)}{ms^2 + k} \\
        X(s) &= \frac{1}{\sqrt{\frac{k}{m}}} \left( A \frac{s - i \sqrt{\frac{k}{m}}}{s^2 + \frac{k}{m}} + B \frac{s + i \sqrt{\frac{k}{m}}}{s^2 + \frac{k}{m}} \right) 
      \end{align}
      Taking Inverse Laplace Transform:\\
      Initial Conditions be at extreme point of SHM
      \begin{align}
       x(t) &=A \left( B \sin(\sqrt{\frac{k}{m}}t) + C\cos(\sqrt{\frac{k}{m}}t) \right)\\
+       x(t) &=P \left(\sin(\sqrt{\frac{k}{m}}t+Q) \right)\\
       x(t)&=0.3924\brak{\sin(\sqrt{\frac{100}{5}}t+\frac{\pi}{2}}\text{ m}\\
       x(t)&=39.24 \sin(5t+\frac{\pi}{2}) \text{ cm}
      \end{align}
     The static deflection due to weight and the time period of the oscillations,respectively are $39.24$ cm and $\frac{2\pi}{5}$ s
 \end{enumerate}
-\begin{figure}[h!]
+ \begin{figure}[h!]
     \centering
     \includegraphics[width = \columnwidth]{figs/xe_71_f2.png}
 \end{figure}
-
+ \begin{table}[!ht]
+    \centering
+        \input{Table/table.tex}
+    \caption{input parameters}
+\end{table}
 \end{document}
-
 
