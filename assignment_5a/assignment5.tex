@@ -62,32 +62,36 @@
 \solution
 \begin{enumerate}
     \item Static deflection due to weight(sdw)\\
-    let x be sdw.\\
+    let x be sdw.\\0
     At mean position in equilibrium\\
-     Table reference \ref{table:XE 71.t1}
+    \ref{table:XE 71.t1}
     \begin{align}
         Mg&=kx\\
         x&=39.24cm
     \end{align}
      \item Time period of oscillation\\
-          \begin{align}
+     \begin{align}
            F&=-kx\\
            m\brak{\frac{d^2x}{dt^2}}&=-kx
      \end{align}
       Initial Conditions be at extreme  point of SHM
       \begin{align}
-       x(0)&=0.3924\\
-       \frac{dx}{dt}&=0 \text{ at } t=0 \text{ (released from rest)} 
+       x(0)&=0.3924 \label{XE_71.5}\\
+       \frac{dx}{dt}&=0 \text{ at } t=0 \text{ (released from rest)} \label{XE_71.6}
         \end{align} 
      Taking Laplace transform:
      \begin{align}
-      msx(0) + \frac{dx(0)}{dt} + kX(s) &= 0
-      \end{align}
-      Substituting initial values
-      \begin{align}
-      X(s) &= \frac{0.3924}{ms^2 + k}
+     m(s^2X(s)-sx(0)-mx'(0))+kX(s)&=0
      \end{align}
+     \begin{align}
+      X(s) &= \frac{x(0)ms+mx'(0)}{ms^2 + k}\\
+      X(s)&=x(0)\frac{s}{s^2+\frac{k}{m}}+\brak{x'(0)\sqrt{\frac{k}{m}}}\frac{\sqrt{\frac{k}{m}}}{s^2+\brak{\sqrt{\frac{k}{m}}}^2}
+      \end{align}
      Taking Inverse Laplace Transform:\\
+     \begin{align}
+     x(t)&=x(0)\cos\left(\sqrt{\frac{k}{m}}t\right)+\brak{x'(0)\sqrt{\frac{k}{m}}}\sin \brak{\sqrt{\frac{k}{m}}t}\\
+     \end{align}
+     Using \ref{XE_71.5} and \ref{XE_71.6} 
      \begin{align}
       x(t) &= 0.3924 \cos\left(\sqrt{\frac{k}{m}}t\right)\\
       x(t)&=0.3924\sin\brak{5t+\frac{\pi}{2}}\text{ m}\\
