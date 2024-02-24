@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.2.2)  24 FEB 2024 11:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.2.2)  24 FEB 2024 12:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1266,47 +1266,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 72--73
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 81--83
+Underfull \hbox (badness 10000) in paragraph at lines 89--91
 
  []
-
-
-LaTeX Warning: Reference `XE_71_eq10' on page 1 undefined on input line 94.
-
-
-LaTeX Warning: Reference `XE_71_eq11' on page 1 undefined on input line 94.
-
-
-LaTeX Warning: Reference `XE_71_eq13' on page 1 undefined on input line 94.
 
 <figs/xe_71_f2.png, id=8, 462.528pt x 346.896pt>
 File: figs/xe_71_f2.png Graphic file (type png)
 <use figs/xe_71_f2.png>
-Package pdftex.def Info: figs/xe_71_f2.png  used on input line 103.
+Package pdftex.def Info: figs/xe_71_f2.png  used on input line 100.
 (pdftex.def)             Requested size: 252.0pt x 189.00427pt.
 (./Table/table.tex) [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
 
- <./figs/xe_71_f1.png> <./figs/xe_71_f2.png>] [2
-
-] (./assignment5.aux)
+ <./figs/xe_71_f1.png> <./figs/xe_71_f2.png>] (./assignment5.aux)
 
 LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package rerunfilecheck Info: File `assignment5.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 29595 strings out of 478287
- 583091 string characters out of 5849290
- 856571 words of memory out of 5000000
- 47124 multiletter control sequences out of 15000+600000
- 550190 words of font info for 204 fonts, out of 8000000 for 9000
+ 29584 strings out of 478287
+ 582973 string characters out of 5849290
+ 848571 words of memory out of 5000000
+ 47121 multiletter control sequences out of 15000+600000
+ 548874 words of font info for 202 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 101i,14n,96p,415b,327s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 101i,13n,96p,415b,327s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type
@@ -1315,10 +1301,10 @@ fonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.p
 fb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/
 texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-d
 ist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on assignment5.pdf (2 pages, 107250 bytes).
+Output written on assignment5.pdf (1 page, 104059 bytes).
 PDF statistics:
- 88 PDF objects out of 1000 (max. 8388607)
- 64 compressed objects within 1 object stream
- 22 named destinations out of 1000 (max. 500000)
+ 78 PDF objects out of 1000 (max. 8388607)
+ 55 compressed objects within 1 object stream
+ 16 named destinations out of 1000 (max. 500000)
  23 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -64,35 +64,32 @@
     \item Static deflection due to weight(sdw)\\
     let x be sdw.\\
     At mean position in equilibrium\\
-     \ref{table:XE 71.t1}
+     Table reference \ref{table:XE 71.t1}
     \begin{align}
         Mg&=kx\\
         x&=39.24cm
     \end{align}
      \item Time period of oscillation\\
-        \begin{align}
+          \begin{align}
            F&=-kx\\
            m\brak{\frac{d^2x}{dt^2}}&=-kx
      \end{align}
+      Initial Conditions be at extreme  point of SHM
+      \begin{align}
+       x(0)&=0.3924\\
+       \frac{dx}{dt}&=0 \text{ at } t=0 \text{ (released from rest)} 
+        \end{align} 
      Taking Laplace transform:
      \begin{align}
-      X(s) &= \frac{ms x(0) + x'(0)}{ms^2 + k} \\
-       X(s) &= \frac{1}{\sqrt{\frac{k}{m}}} \left( A \frac{s - i \sqrt{\frac{k}{m}}}{s^2 + \frac{k}{m}} + B \frac{s + i \sqrt{\frac{k}{m}}}{s^2 + \frac{k}{m}} \right) 
+      msx(0) + \frac{dx(0)}{dt} + kX(s) &= 0
+      \end{align}
+      Substituting initial values
+      \begin{align}
+      X(s) &= \frac{0.3924}{ms^2 + k}
      \end{align}
      Taking Inverse Laplace Transform:\\
      \begin{align}
-      x(t) &=A \left( B \sin(\sqrt{\frac{k}{m}}t) + C\cos(\sqrt{\frac{k}{m}}t) \right)\\
-       x(t) &=P \left(\sin(\sqrt{\frac{k}{m}}t+Q) \right)\\
-        x(t) &=P \sin(5t+Q) \\\label{XE_71_eq10}
-       \end{align}
-        Initial Conditions be at extreme  point of SHM
-       \begin{align}
-       x(0)&=0.3924=P sinQ\\\label{XE_71_eq11}  
-       \frac{dx}{dt}&=0 \text{ at } t=0 \text{ (released from rest)} \\
-       \frac{dx}{dt}&=5P\cos(Q)=0\label{XE_71_eq13}\\
-       \end{align}   
-solving \ref{XE_71_eq10} using \ref{XE_71_eq11} and \ref{XE_71_eq13}
-       \begin{align}
+      x(t) &= 0.3924 \cos\left(\sqrt{\frac{k}{m}}t\right)\\
       x(t)&=0.3924\sin\brak{5t+\frac{\pi}{2}}\text{ m}\\
       x(t)&=39.24 \sin\brak{5t+\frac{\pi}{2}} \text{ cm}
      \end{align}
