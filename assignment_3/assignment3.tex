@@ -1,7 +1,7 @@
 %\iffalse
 \let\negmedspace\undefined
 \let\negthickspace\undefined
-\documentclass[journal,12pt,twocolumn]{IEEEtran}
+\documentclass[journal,12pt,onecolumn]{IEEEtran}
 \usepackage{cite}
 \usepackage{amsmath,amssymb,amsfonts,amsthm}
 \usepackage{algorithmic}
@@ -48,7 +48,6 @@
  \author{EE23BTECH11048-Ponugumati Venkata Chanakya$^{*}$% <-this % stops a space
  }
  \maketitle
- \newpage
  \bigskip
  \renewcommand{\thefigure}{\theenumi}
  \renewcommand{\thetable}{\theenumi}
@@ -64,8 +63,7 @@ Consider the equation $\frac{dy}{dx}+ay=\sin{\omega x}$,where $a$ and $\omega$ a
 \hfill(GATE AE 2023)\\
 \solution: \\
 \begin{align}
-  y(0)=1\\
- \frac{dy}{dx}+ay &= \sin{\omega_0 x}
+\frac{dy}{dx} + ay = \sin(\omega_0 x) \quad \text{with} \quad y(0) = 1
 \end{align}
  Taking Fourier transform on both sides 
   \begin{table}[!ht]
@@ -75,22 +73,22 @@ Consider the equation $\frac{dy}{dx}+ay=\sin{\omega x}$,where $a$ and $\omega$ a
     \label{tab:Gate AE 42 }
 \end{table}
 \begin{align}
-   \jmath \omega Y+aY &= \frac{\omega}{2\jmath}(\delta(\omega-\omega_0)-\delta(\omega+\omega_0)\\
-    \implies Y&=\frac{\omega}{2\jmath(\jmath\omega+a)}(\delta(\omega-\omega_0)-\delta(\omega+\omega_0)
+ i\omega Y + aY &= \frac{\omega_0}{2i} \left( \delta(\omega + \omega_0) - \delta(\omega - \omega_0) \right)\\
+    \implies Y &= \frac{\omega_0}{2i(i\omega + a)} \left( \delta(\omega + \omega_0) - \delta(\omega - \omega_0) \right)
  \end{align}
  Taking inverse fourier transform on both sides 
  \begin{align}
-  y(x) &= \frac{1}{2\pi} \int_{-\infty}^{\infty} Y \, e^{\jmath sx} \, ds\\
-   y(x) &= \frac{1}{2\pi} \int_{-\infty}^{\infty} \frac{\omega}{2\jmath(\jmath \omega + a)} \left( \delta(\omega - \omega_0) - \delta(\omega + \omega_0) \right) e^{\jmath sx} \, ds \\
-      y(x) &= \mathcal{F}^{-1}\{Y\} = A e^{-ax} + (B\cos(\omega x) + C\sin(\omega x))\\
-       y(x) &= \mathcal{F}^{-1}\{Y\} = A e^{-ax} + B\sin(\omega x+C)
+ y(x) &= \frac{1}{\sqrt{2\pi}} \int_{-\infty}^{\infty} Y(\omega) \, e^{-i\omega x} \, d\omega\\
+   y(x) &= \frac{1}{\sqrt{2\pi}} \int_{-\infty}^{\infty} \frac{\omega_0}{2i(i\omega + a)} \left( \delta(\omega - \omega_0) - \delta(\omega + \omega_0) \right) e^{-i\omega x} \, d\omega\\
+   y(x) &= \mathcal{F}^{-1}\{Y\} = \frac{w_0}{2i} e^{-ax} + \frac{\pi}{2i}\sin(\omega_0 x+\phi)\\
+y(x) &= \mathcal{F}^{-1}\{Y\} = A e^{-ax} + B\sin(\omega_0 x+C)
  \end{align}
  Now as $x\to \infty$
  \begin{enumerate}
-     \item $y \to 0$ if $a \neq 0$ is not true as $y$ depend on $a,\omega$
-     \item $y \to 1 $ if $ a=0$ is not true as y depend on $\omega$
-     \item $y \to Aexp(|a|x)$ if $a < 0$ is true as $ B\sin(\omega x+C)$ is neglected compared to $A e^{-ax}$
-     \item $y \to B \sin(\omega x+C)$ if $a>0$; is true as $A e^{-ax} \to 0$ 
+     \item $y \to 0$ if $a \neq 0$ is not true as $y$ depend on $a,\omega_0$
+     \item $y \to 1 $ if $ a=0$ is not true as y depend on $\omega_0$
+     \item $y \to Aexp(|a|x)$ if $a < 0$ is true as $ B\sin(\omega_0 x+C)$ is neglected compared to $A e^{-ax}$
+     \item $y \to B \sin(\omega_0 x+C)$ if $a>0$; is true as $A e^{-ax} \to 0$ 
      
  \end{enumerate}
   $\therefore$ C,D are correct options
