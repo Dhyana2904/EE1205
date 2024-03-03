@@ -102,17 +102,20 @@ let $V_1$ and $V_2$ be voltages at shown positions\\
     V_0&=V_1\brak{\frac{R_2}{R_2+sL_2}}\\
    V_1&=V_s\brak{\frac{R_1\brak{\frac{sL_2+R_2}{R_1+R_2+SL_2}}}{sL_1+R_1\brak{\frac{sL_2+R_2}{R_1+R_2+SL_2}}}}\\
    V_1&=V_s\brak{\frac{2+s}{(2+s)+s(6+s)}}\\
-   V_0&=\frac{2}{s^2+7s+2}\\ \label{BM_43.4}
-    \lim _{s\rightarrow 0} V_0 &= V_s \text{(finite)}\\
-    \lim _{s\rightarrow \infty} V_0 &= 0
+   V_0&=V_s\brak{\frac{2}{s^2+7s+2}}\\ \label{BM_43.4}
+   \text{let } s&=j\omega\\
+   V_0&= V_s\brak{\frac{2}{-\omega^2 + 7\jmath\omega+2}}\\
+   &=V_s\brak{\frac{4-2\omega^2-7\jmath\omega}{\omega^4+45\omega^2+4}}
 \end{align}
 For lower frequency $V_0$ is finite and for higher frequency $V_0$ is zero\\
  $\therefore $  Second order low pass filter\\
  From \ref{BM_43.4}
 \begin{align}
     s^2+7s+2&=0\\
-   \delta&= 7^2-4(2)(1)\\
-   \delta>0
+    \text{ for } as^2+bs+c=0\\
+\zeta\text{(Damping Factor)}&=\frac{b}{2\sqrt{ac}}\\
+\text{By comparing }\zeta&=\frac{7}{2\sqrt{2}}\\
+\implies \zeta>1
 \end{align}
 $\therefore $  Over-damped System\\
 $\therefore$ B,D are correct options
