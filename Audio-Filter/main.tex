@@ -78,7 +78,7 @@ apt install python3-cffi python3-soundfile
 \label{input_sound}
 \item The sound file used for this code is obtained from the below link
 \begin{lstlisting}
-$https://github.com/Praful-Kesavadas/signals-and-systems/blob/master/Signals%20and%20systems/Audio-Filter/codes/Praful_Singing.wav
+https://github.com/ee23btech11048/EE1205/blob/f305f122acae3aaed05a1c4e6c65a0fc5edebbd1/Audio-Filter/codes/chanakya_singing.wav
 \end{lstlisting}
 
 \item
@@ -128,11 +128,11 @@ Sketch $y(n)$.\\
 Solve\\
 \solution  The C code calculates $y\brak{n}$  and generates values in a text file.
 \begin{lstlisting}
-https://github.com/Praful-Kesavadas/signals-and-systems/blob/master/Signals%20and%20systems/Audio-Filter/codes/3.c
+https://github.com/ee23btech11048/EE1205/blob/f305f122acae3aaed05a1c4e6c65a0fc5edebbd1/Audio-Filter/codes/3.c
 \end{lstlisting} 
 The following code plots \eqref{prob:2.1} and \eqref{prob:2.2}
 \begin{lstlisting}
-https://github.com/Praful-Kesavadas/signals-and-systems/blob/master/Signals%20and%20systems/Audio-Filter/codes/3.py
+https://github.com/ee23btech11048/EE1205/blob/f305f122acae3aaed05a1c4e6c65a0fc5edebbd1/Audio-Filter/codes/3.py
 \end{lstlisting}
 
 \begin{figure}[H]
@@ -251,7 +251,7 @@ known as the {\em Discret Time Fourier Transform} (DTFT) of $x(n)$.
 \\
 \solution The following code plots the magnitude of transfer function.
 \begin{lstlisting}
-https://github.com/Praful-Kesavadas/signals-and-systems/blob/master/Signals%20and%20systems/Audio-Filter/codes/4.5.py
+https://github.com/ee23btech11048/EE1205/blob/f305f122acae3aaed05a1c4e6c65a0fc5edebbd1/Audio-Filter/codes/4.5.py
 \end{lstlisting}
 Substituting $z = e^{j \omega}$ in \eqref{eq:freq_resp}, we get
 \begin{align}
@@ -303,7 +303,7 @@ h(n) \xrightarrow{} 0\text{, when  } n \xrightarrow{} \infty
 
 The following code plots $h\brak{n}$ 
 \begin{lstlisting}
-https://github.com/Praful-Kesavadas/signals-and-systems/blob/master/Signals%20and%20systems/Audio-Filter/codes/5.2.py
+https://github.com/ee23btech11048/EE1205/blob/f305f122acae3aaed05a1c4e6c65a0fc5edebbd1/Audio-Filter/codes/5.2.py
 \end{lstlisting}
 \begin{figure}[H]
 \centering
@@ -346,7 +346,7 @@ The following code plots Fig. \ref{fig:hndef}. Note that this is the same as Fig
 \ref{fig:hn}. 
 
 \begin{lstlisting}
-https://github.com/Praful-Kesavadas/signals-and-systems/blob/master/Signals%20and%20systems/Audio-Filter/codes/hndef.py
+https://github.com/ee23btech11048/EE1205/blob/f305f122acae3aaed05a1c4e6c65a0fc5edebbd1/Audio-Filter/codes/hndef.py
 \end{lstlisting}
 \begin{figure}[!ht]
 \centering
@@ -371,7 +371,7 @@ $y(n)$ in  Fig.
 \ref{fig:xnyn}. 
 %
 \begin{lstlisting}
-https://github.com/Praful-Kesavadas/signals-and-systems/blob/master/Signals%20and%20systems/Audio-Filter/codes/5.5.py
+https://github.com/ee23btech11048/EE1205/blob/f305f122acae3aaed05a1c4e6c65a0fc5edebbd1/Audio-Filter/codes/5.5.py
 \end{lstlisting}
 \begin{figure}[H]
 \centering
@@ -421,7 +421,7 @@ y\brak{n}={\frac {1}{N}}\sum _{k=0}^{N-1}Y\brak{k}\cdot e^{\j 2\pi kn/N},\quad n
 
 \solution The above three questions are solved using the code below.
 \begin{lstlisting}
-https://github.com/Praful-Kesavadas/signals-and-systems/blob/master/Signals%20and%20systems/Audio-Filter/codes/6.123.py
+https://github.com/ee23btech11048/EE1205/blob/f305f122acae3aaed05a1c4e6c65a0fc5edebbd1/Audio-Filter/codes/6.123.py
 \end{lstlisting}
 \begin{figure}[H]
 \centering
@@ -432,7 +432,7 @@ https://github.com/Praful-Kesavadas/signals-and-systems/blob/master/Signals%20an
 \item Repeat the previous exercise by computing $X(k), H(k)$ and $y(n)$ through FFT and IFFT.
 \solution The solution of this question can be found in the code below.
 \begin{lstlisting}
-https://github.com/Praful-Kesavadas/signals-and-systems/blob/master/Signals%20and%20systems/Audio-Filter/codes/6.4.py
+https://github.com/ee23btech11048/EE1205/blob/f305f122acae3aaed05a1c4e6c65a0fc5edebbd1/Audio-Filter/codes/6.4.py
 \end{lstlisting}
 This code verifies the result by plotting the obtained result with the result obtained by DFT.
 \begin{figure}[H]
@@ -476,7 +476,7 @@ Thus we can rewrite  \eqref{eq:fp} as:
 \end{align}
 where the $\odot$ represents the Hadamard product which performs element-wise multiplication.
 \begin{lstlisting}
-https://github.com/Praful-Kesavadas/signals-and-systems/blob/master/Signals%20and%20systems/Audio-Filter/codes/6.5.py
+https://github.com/ee23btech11048/EE1205/blob/f305f122acae3aaed05a1c4e6c65a0fc5edebbd1/Audio-Filter/codes/6.5.py
 \end{lstlisting}
 \begin{figure}[H]
 \centering
@@ -506,7 +506,7 @@ where the input signal is $x(n)$ and the output signal is $y(n)$ with initial va
 
 \solution The below code gives the output of an Audio Filter without using the built in function signal.lfilter.
 \begin{lstlisting}
-https://github.com/Praful-Kesavadas/signals-and-systems/blob/master/Signals%20and%20systems/Audio-Filter/codes/7.1.py
+https://github.com/ee23btech11048/EE1205/blob/f305f122acae3aaed05a1c4e6c65a0fc5edebbd1/Audio-Filter/codes/7.1.py
 \end{lstlisting}
 \begin{figure}[H]
 \centering
@@ -556,7 +556,7 @@ h(n) &= \sum_{i}r(i)[p(i)]^nu(n) + \sum_{j}k(j)\delta(n - j)
 \end{align}
 The below code computes the values of $r\brak{i},p\brak{i} , k\brak{i}$ and plots $h\brak{n}$
 \begin{lstlisting}
-https://github.com/Praful-Kesavadas/signals-and-systems/blob/master/Signals%20and%20systems/Audio-Filter/codes/7.2.py
+https://github.com/ee23btech11048/EE1205/blob/f305f122acae3aaed05a1c4e6c65a0fc5edebbd1/Audio-Filter/codes/7.2.py
 \end{lstlisting}
 \input{tables/table.tex}
 \begin{figure}[H]
@@ -574,7 +574,7 @@ H(1)&= \sum_{n = 0}^{\infty}h(n)  = \frac{\sum_{k = 0}^{N}b(k)}{\sum_{k = 0}^{M}
 As both $a\brak{k}$ and $b\brak{k}$ are finite length sequences they converge.\\
 The below code plots Filter frequency response
 \begin{lstlisting}
-https://github.com/Praful-Kesavadas/signals-and-systems/blob/master/Signals%20and%20systems/Audio-Filter/codes/filter_response.py
+https://github.com/ee23btech11048/EE1205/blob/17391c131a04f4648b011b9eb2d089c4682b85d8/Audio-Filter/codes/filter_response.py
 \end{lstlisting}
 \begin{figure}[H]
 \centering
