@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.20)  14 APR 2024 22:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.20)  14 APR 2024 22:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1176,7 +1176,7 @@ Package pdftex.def Info: figs/pole-zero.png  used on input line 170.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [4] [5 <./figs/pole-zero.png>]
-<figs/figure1.png, id=146, 462.528pt x 346.896pt>
+<figs/figure1.png, id=145, 462.528pt x 346.896pt>
 File: figs/figure1.png Graphic file (type png)
 <use figs/figure1.png>
 Package pdftex.def Info: figs/figure1.png  used on input line 223.
@@ -1186,7 +1186,7 @@ Overfull \hbox (81.79134pt too wide) in paragraph at lines 223--224
 [][] 
  []
 
-<figs/figure2.png, id=147, 462.528pt x 346.896pt>
+<figs/figure2.png, id=146, 462.528pt x 346.896pt>
 File: figs/figure2.png Graphic file (type png)
 <use figs/figure2.png>
 Package pdftex.def Info: figs/figure2.png  used on input line 229.
@@ -1196,7 +1196,7 @@ Overfull \hbox (81.79134pt too wide) in paragraph at lines 229--230
 [][] 
  []
 
-<figs/figure3.png, id=152, 462.528pt x 346.896pt>
+<figs/figure3.png, id=151, 462.528pt x 346.896pt>
 File: figs/figure3.png Graphic file (type png)
 <use figs/figure3.png>
 Package pdftex.def Info: figs/figure3.png  used on input line 235.
@@ -1207,7 +1207,7 @@ Overfull \hbox (81.79134pt too wide) in paragraph at lines 235--236
  []
 
 [6 <./figs/figure1.png>] [7 <./figs/figure2.png>] [8 <./figs/figure3.png>]
-<figs/figure4.png, id=177, 462.528pt x 346.896pt>
+<figs/figure4.png, id=176, 462.528pt x 346.896pt>
 File: figs/figure4.png Graphic file (type png)
 <use figs/figure4.png>
 Package pdftex.def Info: figs/figure4.png  used on input line 271.
@@ -1218,7 +1218,7 @@ Overfull \hbox (81.79134pt too wide) in paragraph at lines 271--272
  []
 
 [9] [10 <./figs/figure4.png>]
-<figs/figure5.png, id=203, 722.7pt x 478.4274pt>
+<figs/figure5.png, id=201, 722.7pt x 478.4274pt>
 File: figs/figure5.png Graphic file (type png)
 <use figs/figure5.png>
 Package pdftex.def Info: figs/figure5.png  used on input line 342.
@@ -1228,7 +1228,7 @@ Overfull \hbox (81.79134pt too wide) in paragraph at lines 342--343
 [][] 
  []
 
-<figs/figure6.png, id=205, 462.528pt x 346.896pt>
+<figs/figure6.png, id=203, 462.528pt x 346.896pt>
 File: figs/figure6.png Graphic file (type png)
 <use figs/figure6.png>
 Package pdftex.def Info: figs/figure6.png  used on input line 363.
@@ -1238,33 +1238,32 @@ Overfull \hbox (81.79134pt too wide) in paragraph at lines 363--364
 [][] 
  []
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 [11] [12 <./figs/figure5.png>] [13 <./figs/figure6.png>] (./Filter-Design.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `Filter-Design.out' has not changed.
 (rerunfilecheck)             Checksum: 4EEF228631B5F71DABEB76D4F09835D2;1674.
  ) 
 Here is how much of TeX's memory you used:
- 42311 strings out of 478287
- 979172 string characters out of 5849289
- 1496728 words of memory out of 5000000
- 59720 multiletter control sequences out of 15000+600000
- 507469 words of font info for 120 fonts, out of 8000000 for 9000
+ 42309 strings out of 478287
+ 979154 string characters out of 5849289
+ 1496761 words of memory out of 5000000
+ 59719 multiletter control sequences out of 15000+600000
+ 507151 words of font info for 119 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 115i,16n,118p,433b,1167s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 115i,16n,118p,433b,1154s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/txfonts/rtcxr.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/tx
-fonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/txsy.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Filter-Design.pdf (13 pages, 289443 bytes).
+e/texmf-dist/fonts/type1/public/txfonts/rtxmi.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/txfonts/rtxr.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/txfonts/txex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txf
+onts/txsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Filter-Design.pdf (13 pages, 287526 bytes).
 PDF statistics:
- 295 PDF objects out of 1000 (max. 8388607)
- 245 compressed objects within 3 object streams
+ 290 PDF objects out of 1000 (max. 8388607)
+ 242 compressed objects within 3 object streams
  109 named destinations out of 1000 (max. 500000)
  136 words of extra memory for PDF output out of 10000 (max. 10000000)
 
